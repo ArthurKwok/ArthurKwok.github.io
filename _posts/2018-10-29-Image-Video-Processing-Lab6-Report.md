@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Image Video Processing Lab6 Report
-subtitle:   
+subtitle:   EE412
 date:       2018-11-05
 author:     Arthur Kwok
 header-img: img/post-bg-miui6.jpg
