@@ -6,6 +6,7 @@ date:       2018-11-05
 author:     Arthur
 header-style: text
 catalog: true
+mathjax: true
 tags:
     - MachineLearning
 ---
