@@ -3,7 +3,7 @@ layout:     post
 title:      Machine Learning Homework 2
 subtitle:   CS405
 date:       2018-11-05
-author:     Arthur Kwok
+author:     Arthur
 header-style: text
 catalog: true
 tags:

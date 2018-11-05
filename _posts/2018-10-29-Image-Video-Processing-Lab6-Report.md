@@ -3,8 +3,8 @@ layout:     post
 title:      Image Video Processing Lab6 Report
 subtitle:   EE412
 date:       2018-11-05
-author:     Arthur Kwok
-header-img: img/post-bg-miui6.jpg
+author:     Arthur
+header-style: text
 catalog: true
 tags:
     - ImageVideoProcessing
