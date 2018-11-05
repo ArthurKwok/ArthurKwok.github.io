@@ -4,7 +4,6 @@ title:      Machine Learning Homework 2
 subtitle:   CS405
 date:       2018-11-05
 author:     Arthur Kwok
-header-img: img/post-bg-miui6.jpg
 header-style: text
 catalog: true
 tags:
