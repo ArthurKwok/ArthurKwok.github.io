@@ -13,9 +13,9 @@ tags:
 安装ubuntu三天也算是跳了很多坑。。记录一下一些常用的操作，方便以后来查找
 
 
-##基本环境
+## 基本环境
 
-###安装linux
+### 安装linux
 
 1. 清理出一个100g的硬盘空间给新系统使用，在windows的磁盘管理中格式化了原来黑苹果的OSX硬盘
 
@@ -28,7 +28,7 @@ tags:
 
 5. 安装成功后，首先验证wifi驱动，之后切换到阿里云repository。
 
-###Shadowsocks
+### Shadowsocks
 
 科学上网分为两个部分，首先要安装shadowsocks软件。
 最简单的方法可以直接在应用商店搜索shadowscoks下载shadoqsocks-qt5的个人版本，按照服务器配置即可。也可以使用 ```apt-get```:
@@ -49,13 +49,13 @@ file:///home/arthur/autoproxy.pac
 
 github page: https://github.com/erguotou520/electron-ssr/releases
 
-##系统美化
+## 系统美化
 
 美化主要参考教程：
 https://zhuanlan.zhihu.com/p/36200924
 https://zhuanlan.zhihu.com/p/37314255
 
-###安装Gnome-tweak-tool
+### 安装Gnome-tweak-tool
 
     sudo apt-get install gnome-tweak-tool
 
@@ -69,7 +69,7 @@ https://zhuanlan.zhihu.com/p/37314255
 
 调整字体比例，触摸板速度等等
 
-###安装主题、图标
+### 安装主题、图标
 
 主题：arc
 
@@ -191,10 +191,7 @@ sudo apt-get install g++-4.8
 ```
 
 
-
-###
-
-##常用操作
+## 常用操作
 
  - 转换目录：
 ```
