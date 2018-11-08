@@ -91,13 +91,22 @@ $ sudo apt-get install refind
 ```
 安装主题：
 挂载EFI引导盘：
+
 ```
 $ sudo nautilus
 ``` 
+
 在目录`efi/EFI/refind`中新建文件夹`themes`,下载并拷贝：
-```https://github.com/EvanPurkhiser/rEFInd-minimal```
+
+```
+https://github.com/EvanPurkhiser/rEFInd-minimal
+```
+
 在`rEFInd`目录中，`refind.conf`最后一行添加：
-```include themes/rEFInd-minimal/theme.conf```
+
+```
+include themes/rEFInd-minimal/theme.conf
+```
 
 ### 替换方向键
 
