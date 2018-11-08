@@ -12,9 +12,9 @@ tags:
 
 安装ubuntu三天也算是跳了很多坑。。记录一下一些常用的操作，方便以后来查找
 
-[TOC]
 
 ##基本环境
+
 ###安装linux
 
 1. 清理出一个100g的硬盘空间给新系统使用，在windows的磁盘管理中格式化了原来黑苹果的OSX硬盘
@@ -29,6 +29,7 @@ tags:
 5. 安装成功后，首先验证wifi驱动，之后切换到阿里云repository。
 
 ###Shadowsocks
+
 科学上网分为两个部分，首先要安装shadowsocks软件。
 最简单的方法可以直接在应用商店搜索shadowscoks下载shadoqsocks-qt5的个人版本，按照服务器配置即可。也可以使用 ```apt-get```:
 
@@ -49,9 +50,11 @@ file:///home/arthur/autoproxy.pac
 github page: https://github.com/erguotou520/electron-ssr/releases
 
 ##系统美化
+
 美化主要参考教程：
 https://zhuanlan.zhihu.com/p/36200924
 https://zhuanlan.zhihu.com/p/37314255
+
 ###安装Gnome-tweak-tool
 
     sudo apt-get install gnome-tweak-tool
@@ -65,7 +68,9 @@ https://zhuanlan.zhihu.com/p/37314255
   - No workspace switcher popup
 
 调整字体比例，触摸板速度等等
+
 ###安装主题、图标
+
 主题：arc
 
     sudo apt install arc-theme
@@ -77,6 +82,7 @@ https://zhuanlan.zhihu.com/p/37314255
     sudo apt-get install papirus-icon-theme
 
 ### Boot loader
+
 使用 `rEFInd`:
 ```
 $ sudo apt-add-repository ppa:rodsmith/refind
@@ -94,20 +100,24 @@ $ sudo nautilus
 ```include themes/rEFInd-minimal/theme.conf```
 
 ### 替换方向键
+
 参考：https://shellhell.wordpress.com/2012/01/31/hello-world/
 
 ## 软件安装
 
 ### Opencv
+
 http://www.codebind.com/cpp-tutorial/install-opencv-ubuntu-cpp/
 
 https://blog.csdn.net/zoeou/article/details/80934367
 
 ### Chrome
+
 使用自带的firefox（对不起）搜索chrome，可在未翻墙状态下下载。
 之后用google账号可同步所有的设置、浏览记录。
 
 ### Matlab
+
 matlab的安装相当之蛋疼。。
 首先，在mathworks官网登陆以后即可下载linux版本matlab；
 然后忍受纳米级别的字体。。在安装完成以后才有可能更换。
@@ -127,21 +137,28 @@ matlab的安装相当之蛋疼。。
 
 最后切换默认的快捷键：
 preferences->keyboard->shortcuts, 将emacs改为windows
+
+
 ### VScode
+
 在微软官网下载即可。
 
 ### anaconda
+
 https://blog.csdn.net/SONGYINGXU/article/details/78940305
 
 ### Zotero
+
 需要安装两个部分：
 zotero for linux
 zotero chrome插件
 
 ### Office
+
 建议使用web office：
 
 ### JUCE
+
 reference: https://mycourses.aalto.fi/pluginfile.php/108835/mod_resource/content/4/juce_instructions.pdf
 
 download JUCE from offical site;
@@ -160,6 +177,7 @@ sudo apt-get -y install freeglut3-dev
 sudo apt-get -y install libcurl4-gnutls-dev
 ```
 ### C++
+
 reference:
 https://www.cnblogs.com/lidabo/p/5888997.html
 https://blog.csdn.net/q932104843/article/details/51924900
@@ -177,6 +195,7 @@ sudo apt-get install g++-4.8
 ###
 
 ##常用操作
+
  - 转换目录：
 ```
     cd /dir
