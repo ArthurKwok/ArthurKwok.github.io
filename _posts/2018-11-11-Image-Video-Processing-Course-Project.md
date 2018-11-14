@@ -2,7 +2,7 @@
 layout:     post
 title:      Image Video Processing Course Project 1
 subtitle:   
-date:       2018-08-10
+date:       2018-11-11
 author:     Arthur
 header-style: text
 catalog: true
@@ -42,7 +42,7 @@ By observing the transfer function, we can see that the log transformation can e
 
 #### Code
 The point is that, remember to convert the data type of matrix to `CV_32F` or `CV_64F`, since the `imread` generally reads matrices as `CV_8U`. However, if you want to take transformations like log, the numbers must be float.
-```
+```cpp
 Mat CourseProj1::logTransformation(Mat inMat)
 {
 	inMat.convertTo(inMat, CV_64F);
@@ -89,7 +89,7 @@ The gamma correction has three types:
 
 #### Code
 Similar as log transformation, but an input parameter `gamma` is added to perform choiceable values for gamma.
-```
+```cpp
 Mat CourseProj1::myGammaCorrection(Mat inMat, double gamma)
 {
 	Mat outMat;
@@ -123,7 +123,7 @@ Same as the transfer function tells, when $\gamma<1$, then pictures are brighter
 First of all, we need to generate the image as instructed.
 In the function `generateTask2()`, I first generate the backe ground with a random generator `RNG`, specifying a normal distribution with mean=210 and variance=10; Then, take a sub matrix of the center, and change the values into another RNG with mean=90 and variance=10.
 
-```
+```cpp
 Mat CourseProj1::generateTask2()
 {
 	Mat gen;
@@ -144,7 +144,7 @@ Mat CourseProj1::generateTask2()
 
 In order to observate the change in histogram, I wrote an assistant function to plot the histogram of an arbitrary matrix:
 
-```
+```cpp
 Mat CourseProj1::drawHist(Mat &inMat)
 {
 	Mat image;
@@ -187,7 +187,7 @@ In order to remove the back ground, I used a local mean filter, which discards e
 
 As a result, down right is the histogram of the denoised image. The left white line is all the values with 0 intensity. In the upper right picture, we can see the object in the center is the only thing left.
 
-```
+```cpp
 Mat CourseProj1::denoiseTask2(Mat &inMat)
 {
 	Mat outMat;
@@ -230,7 +230,7 @@ To perform such a task, we need three steps:
 In OpenCV, there is a function of matrix, `matrixA.mul(matrixB)` that multiply each element from `matrixA` and `matrixB`, which is perfect for our task.
 
 #### Code
-```
+```cpp
 Mat CourseProj1::localFilter(Mat inMat, int filtSize, Mat weights)
 {
 	Mat padded;
@@ -255,7 +255,8 @@ Mat CourseProj1::localFilter(Mat inMat, int filtSize, Mat weights)
 
 #### Result
 When testing the result, we must at first generate our weights matrix. So I've done it in `runTask3()`, generate a 5x5 mean filter:
-```
+
+```cpp
 void runTask3(Mat image)
 {
 	CourseProj1 CP(image);
@@ -285,7 +286,8 @@ Finally, the `drawHist()` function is the same as task2.
 
 #### Code
 The `addNoise()` function is relatively easy:
-```
+
+```cpp
 Mat CourseProj1::addNoise(Mat &inMat)
 {
 	Mat outMat;
@@ -315,7 +317,7 @@ For the local median filter, there are some steps:
     4. use `nth_element` to sort the first half of the vector, which can get median value
     5. output the median value
 
-```
+```cpp
 Mat CourseProj1::localMedianFilter(Mat inMat, int filtSize)
 	{
 	// median filter
@@ -370,7 +372,8 @@ The unsharp masking follows the steps:
 #### Code
 For step 1, I used the function in Task3 to perform the blurring.
 For step 2 and 3, I conbine them in one line, since this can reduce the amount of calculation.
-```
+
+```cpp
 Mat CourseProj1::unsharpMask(Mat &inMat)
 {
 	Mat outMat;
@@ -437,7 +440,7 @@ The input parameter `int mode` has the definition:
 //		5 : Gaussian High Pass Filter
 ```
 
-```
+```cpp
 Mat CourseProj1::freqFilt(Mat &inMat, int mode, double cutoff)
 {
 	Mat im = inMat;
@@ -489,7 +492,7 @@ Mat CourseProj1::freqFilt(Mat &inMat, int mode, double cutoff)
 }
 ```
 
-```
+```cpp
 double CourseProj1::genFilter(double D2, double D0, int mode)
 {
 // mode:
