@@ -14,7 +14,7 @@ tags:
 
 ## Code Structure
 
-The algorithms for each task is in `CourseProj1.h`,  which has been separated for each task by comments. There are also some assistant functions that computes some middle results or analysis graphs.
+The algorithms for each task is in `CourseProj1.h`,  which has been separated for each task by comments. There are also some assistantb functions that computes some middle results or analysis graphs.
 
 In `image.cpp`, there are 6 functions called `runTask1()` to `runTask6()`, which run the algorithm with different parameters, and generate the output picture.
 
@@ -122,6 +122,7 @@ Same as the transfer function tells, when $\gamma<1$, then pictures are brighter
 #### Code
 First of all, we need to generate the image as instructed.
 In the function `generateTask2()`, I first generate the backe ground with a random generator `RNG`, specifying a normal distribution with mean=210 and variance=10; Then, take a sub matrix of the center, and change the values into another RNG with mean=90 and variance=10.
+
 
 ```cpp
 Mat CourseProj1::generateTask2()
