@@ -13,7 +13,7 @@ tags:
 
 ## Introduction
 
-This is a final project of course *EE332 Design of Digital System*. The aim of the course is to teach VHDL, as well as the processing of designing a digital system, based on the knowledge of digital circuits.
+This is a final project of course *EE332 Design of Digital System*. The aim of the course is to teach VHDL, as well as the methodology of designing a digital system, based on the knowledge of digital circuits.
 
 For the lab work, the course uses *Nexys 4 DDR* develop board, and *Vivado* as the software.
 
@@ -21,12 +21,12 @@ Here is a simple video about how our program works:
 
 {% include youtubePlayer.html id=page.youtubeId %}
 
-After connecting a speaker to the audio jack on the board, we can directly hear the sound
+The board is connected to a speaker from the audio jack.
 
 ## Design
 
-The
-
+This is the features of the board, according to the official document:
+![]("img/post-FPGA-plot.png")
 
 ## Document
 
