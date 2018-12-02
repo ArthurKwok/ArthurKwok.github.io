@@ -26,7 +26,7 @@ The board is connected to a speaker from the audio jack.
 ## Design
 
 This is the features of the board, according to the official document:
-![]("img/post-FPGA-plot.png")
+![](img/post-FPGA-plot.png)
 
 ## Document
 
