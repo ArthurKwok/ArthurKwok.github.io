@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Guitar based MIDI controller 
+title:      Guitar Based MIDI Controller 
 subtitle:   
 date:       2017-06-01
 author:     Arthur
@@ -20,3 +20,5 @@ tags:
 ## Design
 
 ## Document
+
+Download our Slides [here](https://drive.google.com/open?id=1KZcEP3naNxpu1xqWq-UIWpN1p6ZKAOBC).

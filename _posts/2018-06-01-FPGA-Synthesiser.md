@@ -47,4 +47,4 @@ No.17 is the audio jack. It uses PWM for DA convertion. The output waveform can 
 
 For technical details, please download our report.
 
-Download our course project report [here.](https://drive.google.com/open?id=1XROKcsPyorzjFuNwu0GC86kFPOFhOiEx)
+Download our course project report [here](https://drive.google.com/open?id=1XROKcsPyorzjFuNwu0GC86kFPOFhOiEx).
