@@ -1,4 +1,3 @@
-![](/img/portfolio-test.jpg)
 
 > All the seasons and the times of your days
 
