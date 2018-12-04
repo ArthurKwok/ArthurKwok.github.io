@@ -37,6 +37,6 @@ After finished the model, we test the circuit and done some simulation with *Mul
 
 ## Document
 
-For detail processa and circuit analysis, please download our report.
+For detail process and circuit analysis, please download our report.
 
 Download our course project report [here](https://drive.google.com/open?id=1Am906UoPnU-6uEfWeS5mg9KIk1Ek7i2C).
