@@ -6,7 +6,7 @@ date:       2016-12-01
 author:     Arthur
 header-style: text
 # catalog: true
-# youtubeId: 
+youtubeId: -7id3uEl28w
 tags:
     - Analog
 
