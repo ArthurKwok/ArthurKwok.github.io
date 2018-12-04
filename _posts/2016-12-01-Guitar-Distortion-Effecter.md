@@ -16,7 +16,7 @@ tags:
 
 This is a final project of course *EE201 Analog Circuit*. We made a analog guitar effecter, based on the classic pedal *Ibanez TubeScreamer 808*, as well as testing, simulation and circuit analysis.
 
-![](/img/in-post/post-effecter.png)
+![](/img/in-post/post-effecter.jpg)
 
 Please check our demonstration video:
 
