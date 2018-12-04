@@ -14,6 +14,9 @@ tags:
 
 ## Introduction
 
+{% include youtubePlayer.html id=page.youtubeId %}
+
+
 ## Design
 
 ## Document
