@@ -15,7 +15,9 @@ tags:
 
 ## Performances
 
-I played as guitar in all files.
+I played as guitar in all files. This↓ is me!
+
+![](/img/in-post/shows/me.png)
 
 #### Dec 2018, Home Recording
 
