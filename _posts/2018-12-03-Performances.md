@@ -17,7 +17,7 @@ tags:
 
 I played as guitar in all files. This↓ is me!
 
-![](/img/in-post/shows/me.png) 
+![](/img/in-post/shows/me.PNG) 
 
 #### Dec 2018, Home Recording
 
