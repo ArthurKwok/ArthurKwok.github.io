@@ -5,7 +5,7 @@ subtitle:
 date:       2018-12-03
 author:     Arthur
 header-style: text
-# catalog: true
+catalog: true
 youtubeId1: sKlLhIt3S4M
 youtubeId2: napB1fhh-5Q
 youtubeId3: RzB-sdbwgF8
@@ -37,7 +37,7 @@ Sugar - Beach Fossils
 #### May 2018, SUSTech Band Mix
 
 你怎么说 - 邓丽君
-(Rearrangement)
+(Rearranged)
 
 {% include youtubePlayer.html id=page.youtubeId3 %}
 
