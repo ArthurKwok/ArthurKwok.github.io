@@ -13,6 +13,25 @@ tags:
 
 ## Performances
 
+#### Dec 2018, Movie's Night
+
+Sugar - Beach Fossils
+
+{% include youtubePlayer.html id=napB1fhh-5Q %}
+
+#### Dec 2018, Rehearsal
+
+不负责任（男人）的挽留 - 那我懂你意思了
+
+{% include youtubePlayer.html id=sKlLhIt3S4M %}
+
+#### May 2018, SUSTech Band Mix
+
+你怎么说 - 邓丽君
+(Rearrangement)
+
+{% include youtubePlayer.html id=sKlLhIt3S4M %}
+
 
 ## Activities
 
