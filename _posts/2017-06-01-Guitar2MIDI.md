@@ -25,9 +25,8 @@ Please watch the demonstration video:
 
 We used a modified acoustic guitar, connect fret bars and strings to the Arduino pins.
 
-![](/img/in-post/post-guitar2midi-fret.jpg/)
+![](/img/in-post/post-guitar2midi-guitar.png/)
 
-![](/img/in-post/post-guitar2midi-string.jpg)
 
 When a certain fret is pressed, it will create a electric loop between specific fret and string, which can be detected by the arduino program.
 
