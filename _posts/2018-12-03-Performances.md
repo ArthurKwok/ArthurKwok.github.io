@@ -15,6 +15,8 @@ tags:
 
 ## Performances
 
+I played as guitar in all files.
+
 #### Dec 2018, Home Recording
 
 風の詩－押尾コータロー
