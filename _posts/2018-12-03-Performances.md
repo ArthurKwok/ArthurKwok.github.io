@@ -47,7 +47,8 @@ Sugar - Beach Fossils
 
 
 
-## Activities
+## Photos
+
 
 #### May 2017, 5th Tomorrow Festival @B10Live
 
@@ -55,7 +56,9 @@ Sugar - Beach Fossils
 
 ![](/img/in-post/shows/IMG_8631.JPG)
 
+#### May 2017, TedxSUSTech
 
+![](/img/in-post/shows/IMG_8595.JPG)
 
 #### Dec 2016, Christmas Eve @PennyBlack Jazz Cafe
 
@@ -68,3 +71,6 @@ Sugar - Beach Fossils
 
 ![](/img/in-post/shows/IMG_6747.JPG)
 
+#### Jan 2016, New Year Party @SUSTech
+
+![](/img/in-post/shows/20160108.JPG)
