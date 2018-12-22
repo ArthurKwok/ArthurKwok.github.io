@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Performances and Activities
+title:      Guitar Chord and Tempo Recognition
 subtitle:   
 date:       2018-08-31
 author:     Arthur
