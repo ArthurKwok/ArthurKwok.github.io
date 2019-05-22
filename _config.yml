@@ -16,7 +16,7 @@ RSS: false
 # weibo_username:     
 # zhihu_username:     
 # twitter_username:   
-github_username:    ArthurKwok
+github_username: ArthurKwok
 facebook_username:  arthurgjy
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -79,7 +79,8 @@ kramdown:
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "MIR, Synthesis, NIME, MATLAB, Python, Guitar, Jazz
-
+\n
+jg5505@nyu.edu
 "
 sidebar-avatar: /img/avatar-arthur.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
