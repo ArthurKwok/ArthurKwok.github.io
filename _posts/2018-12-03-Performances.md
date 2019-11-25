@@ -1,17 +1,3 @@
----
-layout:     post
-title:      Performances and Activities
-subtitle:   
-date:       2018-12-03
-author:     Arthur
-header-style: text
-catalog: true
-youtubeId1: sKlLhIt3S4M
-youtubeId2: napB1fhh-5Q
-youtubeId3: RzB-sdbwgF8
-tags:
-
----
 
 ## Performances
 
